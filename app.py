@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the saved model
-model = joblib.load(open('linear.sav', 'lr'))
+model = joblib.load(open('linear.sav', 'rb'))
 
 st.title('Sales Prediction App')
 
